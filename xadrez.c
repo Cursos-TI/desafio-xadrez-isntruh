@@ -11,7 +11,7 @@ int main() {
     int movimentoTorre = 5;   // número de casas que a torre vai se mover
     int movimentoRainha = 8;  // número de casas que a rainha vai se mover
 
-    int i, j; // variável de controle principal
+    int i, j;
 
     // Implementação de Movimentação do Bispo
     // Sugestão: Utilize uma estrutura de repetição para simular a movimentação do Bispo em diagonal.
@@ -47,8 +47,8 @@ int main() {
 
     printf("\n~~~~~ Movimento do Cavalo ~~~~~\n");
 
-    int movimentoBaixo = 2;     // número de casas que o cavalo se move para baixo
-    int movimentoEsquerda = 1;  // número de casas que o cavalo se move para a esquerda
+    int movimentoBaixo = 2;
+    int movimentoEsquerda = 1;
 
     for (i = 1; i <= movimentoBaixo; i++) {
         printf("Baixo (%d)\n", i);
